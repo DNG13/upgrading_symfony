@@ -316,13 +316,16 @@
         "version": "v4.1.11"
     },
     "symfony/debug-bundle": {
-        "version": "4.1",
+        "version": "4.4",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "master",
             "version": "4.1",
-            "ref": "f8863cbad2f2e58c4b65fa1eac892ab189971bea"
-        }
+            "ref": "0ce7a032d344fb7b661cd25d31914cd703ad445b"
+        },
+        "files": [
+            "config/packages/dev/debug.yaml"
+        ]
     },
     "symfony/dependency-injection": {
         "version": "v4.1.11"
@@ -427,12 +430,12 @@
         }
     },
     "symfony/messenger": {
-        "version": "4.3",
+        "version": "4.4",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "master",
             "version": "4.3",
-            "ref": "8a2675c061737658bed85102e9241c752620e575"
+            "ref": "25e3c964d3aee480b3acc3114ffb7940c89edfed"
         },
         "files": [
             "config/packages/messenger.yaml"
